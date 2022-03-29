@@ -1,0 +1,33 @@
+.body{
+    background: rgb(12, 226, 47);
+    color: rgb(6, 4, 97);
+    padding: 15px;
+    text-align: center;
+    background-image: url(./images/logo.png);
+    background-size: 200px 30px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: top;
+    
+    
+}
+
+.CSS-info h1{
+    border-width: 10px;
+    border-color: aqua;
+    border-style: dashed;
+    font-size: 50px;
+    color: blue;
+    text-align: center;
+    margin: 20px 30px 50px;
+    padding: 20px 30px 50px;
+    font-style: italic;
+}
+.CSS-info h1:hover{
+    transition: 2s;
+    transform: scale(200px);
+    transform: translateX(300px);
+    transform: rotate(360deg);
+    opacity: 1;
+    background-color: lightseagreen;
+}
