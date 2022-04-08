@@ -50,7 +50,7 @@
 }
 
 .font:hover{
-    transition: 1s;
+    transition: 3s;
     transform: scale(100px);
     transform: translateX(100px);
     transform: rotate(360deg);
@@ -59,4 +59,34 @@
     color: rebeccapurple;
     
 
+}
+
+.a:link{
+    color: blue;
+}
+.a:visited{
+    color: green;
+}
+
+.link{
+    font-size: 70px;
+    font-weight: 50px;
+    text-align: center;
+}
+
+.a{
+    display: inline-block;
+    background-color: lightgreen;
+    text-decoration: dotted;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.a:hover{
+    transition: 0.5px;
+    transform: scale(150px);
+    transform: translateX(150px);
+    transform: rotate(360deg);
+    background-color: red;
+    opacity: 0s;
 }
